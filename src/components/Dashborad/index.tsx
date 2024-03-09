@@ -14,9 +14,9 @@ import { ScrollArea, ScrollBar } from "../ui/scroll-area";
 
 export function Dashboard() {
   return (
-    <section className="mx-auto flex w-full max-w-6xl pl-6 lg:px-6">
+    <section className="mx-auto flex w-full max-w-6xl lg:px-6">
       <ScrollArea className="-mt-20 w-full whitespace-nowrap">
-        <div className="flex w-full justify-between space-x-4 pb-4">
+        <div className="ml-6 flex w-full justify-between space-x-4 pb-4 lg:ml-0">
           <Card className="w-full max-w-[352px] space-y-3 px-8 py-6">
             <CardHeader className="items-center justify-between ">
               <CardTitle className="text-[#C4C4CC]">Entradas</CardTitle>
@@ -45,7 +45,7 @@ export function Dashboard() {
               </span>
             </CardFooter>
           </Card>
-          <Card className=" bg-primary w-full max-w-[352px] space-y-3 px-8 py-6">
+          <Card className=" w-full max-w-[352px] space-y-3 bg-primary px-8 py-6">
             <CardHeader className="items-center justify-between ">
               <CardTitle className="text-[#C4C4CC]">Total</CardTitle>
               <CurrencyDollar size={32} />
@@ -60,7 +60,7 @@ export function Dashboard() {
             </CardFooter>
           </Card>
         </div>
-        <ScrollBar orientation="horizontal" />
+        <ScrollBar orientation="horizontal" className="hidden" />
       </ScrollArea>
     </section>
   );
