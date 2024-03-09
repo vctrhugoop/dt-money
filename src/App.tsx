@@ -18,7 +18,7 @@ import { Input } from "./components/ui/input";
 
 export function App() {
   return (
-    <div className="bg-fore relative min-h-screen bg-zinc-900">
+    <div className="relative min-h-screen bg-zinc-900">
       <Header />
       <Dashboard />
 
@@ -41,7 +41,7 @@ export function App() {
           </Button>
         </div>
 
-        <div className="space-y-2">
+        <div className="h-full space-y-2 pb-36">
           <Card className="p-5 md:flex md:items-center md:justify-between">
             <CardHeader className="md:w-[500px]">
               <CardTitle className="font-normal leading-6 text-[#C4C4CC]">
@@ -61,6 +61,50 @@ export function App() {
               <span className="flex items-center justify-center gap-1 leading-6 text-[#7C7C8A]">
                 <CalendarBlank />
                 13/04/2024
+              </span>
+            </CardFooter>
+          </Card>
+          <Card className="p-5 md:flex md:items-center md:justify-between">
+            <CardHeader className="md:w-[500px]">
+              <CardTitle className="font-normal leading-6 text-[#C4C4CC]">
+                Aluguel do apartamento
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="md:w-[200px]">
+              <span className="text-xl leading-8 text-[#F75A68]">
+                - R$ 1.200,00
+              </span>
+            </CardContent>
+            <CardFooter className="mt-3 flex items-center justify-between md:mt-0 md:w-[340px]">
+              <span className="flex items-center justify-center gap-1 leading-6 text-[#7C7C8A] ">
+                <TagSimple />
+                Casa
+              </span>
+              <span className="flex items-center justify-center gap-1 leading-6 text-[#7C7C8A]">
+                <CalendarBlank />
+                27/03/2024
+              </span>
+            </CardFooter>
+          </Card>
+          <Card className="p-5 md:flex md:items-center md:justify-between">
+            <CardHeader className="md:w-[500px]">
+              <CardTitle className="font-normal leading-6 text-[#C4C4CC]">
+                Aluguel do apartamento
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="md:w-[200px]">
+              <span className="text-xl leading-8 text-[#F75A68]">
+                - R$ 1.200,00
+              </span>
+            </CardContent>
+            <CardFooter className="mt-3 flex items-center justify-between md:mt-0 md:w-[340px]">
+              <span className="flex items-center justify-center gap-1 leading-6 text-[#7C7C8A] ">
+                <TagSimple />
+                Casa
+              </span>
+              <span className="flex items-center justify-center gap-1 leading-6 text-[#7C7C8A]">
+                <CalendarBlank />
+                27/03/2024
               </span>
             </CardFooter>
           </Card>
