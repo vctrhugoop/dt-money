@@ -16,7 +16,7 @@ export function Dashboard() {
   return (
     <section className="mx-auto flex w-full max-w-6xl lg:px-6">
       <ScrollArea className="-mt-20 w-full whitespace-nowrap">
-        <div className="ml-6 flex w-full justify-between space-x-4 pb-4 lg:ml-0">
+        <div className="flex w-full justify-between space-x-4 px-6 pb-4 lg:px-0">
           <Card className="w-full max-w-[352px] space-y-3 px-8 py-6">
             <CardHeader className="items-center justify-between ">
               <CardTitle className="text-[#C4C4CC]">Entradas</CardTitle>
