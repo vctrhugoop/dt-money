@@ -4,6 +4,7 @@ import {
   TagSimple,
 } from "@phosphor-icons/react";
 import { Dashboard } from "./components/Dashborad";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Button } from "./components/ui/button";
 import {
@@ -17,7 +18,7 @@ import { Input } from "./components/ui/input";
 
 export function App() {
   return (
-    <div className="bg-fore min-h-screen bg-zinc-900">
+    <div className="bg-fore relative min-h-screen bg-zinc-900">
       <Header />
       <Dashboard />
 
@@ -87,6 +88,7 @@ export function App() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
